@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Bool2
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-6.998291,"y":-13.2502},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":-227.0,"y":-191.0},"guid":"a46e53ce-7eb2-47a7-880e-ad97e279ae76","$version":"A","$type":"Unity.VisualScripting.OnToggleValueChanged","$id":"9"},{"defaultValues":{},"position":{"x":-365.0,"y":-191.0},"guid":"cd0a827b-6df2-4b6e-9317-c59b940814a7","$version":"A","$type":"Unity.VisualScripting.This","$id":"11"},{"kind":"Scene","defaultValues":{"name":{"$content":"Bool2","$type":"System.String"}},"position":{"x":45.0,"y":-195.0},"guid":"ae245b65-12a3-44a7-a910-c41f935956d0","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"09af1b09-4d42-4b54-990d-5b594c73ac7b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"self","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"52178850-3750-4c70-aa7e-bb588bc25997","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"ecf4f391-e59b-4e76-b779-7ea1a6a9bf07","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 3833473421502485485, guid: 8c0ffb46ca7934089ab628ebbcce5f33, type: 3}
